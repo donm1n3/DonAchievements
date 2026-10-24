@@ -1,0 +1,178 @@
+{
+  "games": {
+    "gta5": {
+      "title": "Grand Theft Auto V",
+      "platform": "PS5",
+      "genre": "Экшен / Открытый мир",
+      "trophies": [
+        {
+          "name": "Легенда Лос-Сантоса",
+          "description": "Соберите все трофеи в игре.",
+          "type": "platinum",
+          "rarity": 1.8,
+          "earned": false
+        },
+        {
+          "name": "Чистое золото, детка!",
+          "description": "Получите 70 золотых медалей в сюжетных миссиях.",
+          "type": "gold",
+          "rarity": 4.2,
+          "earned": false
+        },
+        {
+          "name": "Карьерный преступник",
+          "description": "Достигните 100% прогресса игры.",
+          "type": "gold",
+          "rarity": 2.9,
+          "earned": false
+        },
+        {
+          "name": "Разносторонняя личность",
+          "description": "Заработайте золотую медаль во всех доступных хобби и увлечениях.",
+          "type": "silver",
+          "rarity": 6.5,
+          "earned": true
+        },
+        {
+          "name": "Турист Сан-Андреаса",
+          "description": "Исследуйте весь Лос-Сантос и округ Блэйн.",
+          "type": "silver",
+          "rarity": 8.1,
+          "earned": true
+        },
+        {
+          "name": "Добро пожаловать в Лос-Сантос",
+          "description": "Угоните первую машину по заданию Ламара.",
+          "type": "bronze",
+          "rarity": 92.4,
+          "earned": true
+        },
+        {
+          "name": "Три бита — уже гангстер",
+          "description": "Завершите первое ограбление.",
+          "type": "bronze",
+          "rarity": 74.3,
+          "earned": true
+        }
+      ]
+    },
+
+    "spiderman": {
+      "title": "Marvel's Spider-Man 2",
+      "platform": "PS5",
+      "genre": "Экшен / Приключения",
+      "trophies": [
+        {
+          "name": "Преданный",
+          "description": "Соберите все трофеи в игре.",
+          "type": "platinum",
+          "rarity": 3.2,
+          "earned": false
+        },
+        {
+          "name": "Превосходный Человек-паук",
+          "description": "Завершите основную сюжетную линию.",
+          "type": "gold",
+          "rarity": 11.7,
+          "earned": true
+        },
+        {
+          "name": "Возмездие",
+          "description": "Победите всех суперзлодеев в побочных заданиях.",
+          "type": "silver",
+          "rarity": 22.5,
+          "earned": true
+        },
+        {
+          "name": "Мой район",
+          "description": "Завершите все задания жителей города.",
+          "type": "silver",
+          "rarity": 31.0,
+          "earned": false
+        },
+        {
+          "name": "Городской защитник",
+          "description": "Спасите 50 гражданских.",
+          "type": "bronze",
+          "rarity": 68.9,
+          "earned": true
+        },
+        {
+          "name": "Первое знакомство",
+          "description": "Победите первого врага.",
+          "type": "bronze",
+          "rarity": 94.1,
+          "earned": true
+        }
+      ]
+    },
+
+    "tlou": {
+      "title": "The Last of Us Part I",
+      "platform": "PS5",
+      "genre": "Экшен / Выживание",
+      "trophies": [
+        {
+          "name": "Это не может быть напрасным",
+          "description": "Соберите все трофеи в игре.",
+          "type": "platinum",
+          "rarity": 5.6,
+          "earned": false
+        },
+        {
+          "name": "Закалённый",
+          "description": "Пройдите игру на сложности «Реализм».",
+          "type": "gold",
+          "rarity": 9.3,
+          "earned": false
+        },
+        {
+          "name": "Всё ради выживания",
+          "description": "Пройдите игру на сложности «Выживший».",
+          "type": "gold",
+          "rarity": 12.8,
+          "earned": false
+        },
+        {
+          "name": "Собиратель",
+          "description": "Найдите все коллекционные предметы.",
+          "type": "silver",
+          "rarity": 14.8,
+          "earned": true
+        },
+        {
+          "name": "Не важно, что будет",
+          "description": "Завершите все дополнительные диалоги.",
+          "type": "silver",
+          "rarity": 27.3,
+          "earned": true
+        },
+        {
+          "name": "В поисках света",
+          "description": "Завершите пролог.",
+          "type": "bronze",
+          "rarity": 88.2,
+          "earned": true
+        }
+      ]
+    }
+  },
+
+  "collections": [
+    {
+      "id": "ps-exclusives",
+      "name": "Эксклюзивы PlayStation",
+      "game_ids": ["spiderman", "tlou"]
+    },
+    {
+      "id": "rockstar-hits",
+      "name": "Хиты Rockstar",
+      "game_ids": ["gta5"]
+    },
+    {
+      "id": "story-driven",
+      "name": "Сюжетные шедевры",
+      "game_ids": ["tlou", "spiderman", "gta5"]
+    }
+  ]
+}
